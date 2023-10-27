@@ -1,47 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style>
-    body {
-      background-image: url('background.jpg');
-      background-size: cover;
-      background-color: #f1f1f1;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-
-    header {
-      background-color: #007BFF;
-      color: white;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 36px;
-    }
-
-    #profile-picture {
-      border: 5px solid #007BFF;
-      border-radius: 50%;
-      max-width: 150px;
-      margin: 20px auto;
-      box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
-    }
-
-    .section {
-      background-color: white;
-      padding: 20px;
-      margin: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-
-    a {
-      color: #007BFF;
-    }
-  </style>
-</head>
 <body>
-
 <header>
   <h1>Abuzar Khan</h1>
   <p>Aspiring Software Engineering Student | Pak-Austria Fachhochschule Institute of Applied Science and Technology</p>
