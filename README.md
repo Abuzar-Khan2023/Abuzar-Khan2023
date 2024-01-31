@@ -1,63 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your GitHub Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
-<header>
-  <h1>Abuzar Khan</h1>
-  <p>Aspiring Software Engineering Student | Pak-Austria Fachhochschule Institute of Applied Science and Technology</p>
-</header>
 
-<img id="profile-picture" src="URL_TO_YOUR_PROFILE_PICTURE" alt="Profile Picture">
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Programmer</p>
+    </header>
 
-<div class="section">
-  <h2>Welcome to my GitHub profile!</h2>
-  <p>I am passionate about software development and am actively working on various coding projects. As an aspiring Software Engineering Student, I am dedicated to honing my skills and contributing to the tech community.</p>
-</div>
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3"></i> CSS</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+            <li><i class="fab fa-cplusplus"></i> C++</li>
+            <!-- Add more skills and icons as needed -->
+        </ul>
+    </section>
 
-<div class="section">
-  <h2>Key Areas of Interest</h2>
-  <ul>
-    <li>Web Development</li>
-    <li>Open-Source Contributions</li>
-    <li>Software Engineering</li>
-  </ul>
-</div>
+    <section class="social">
+        <h2>Connect with Me</h2>
+        <ul>
+            <li><a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <!-- Add more social media icons and links as needed -->
+        </ul>
+    </section>
 
-<div class="section">
-  <h2>Projects</h2>
-  <h3>Project 1: Car Rental System</h3>
-  <p><strong>Description:</strong> A C++ project to manage a car rental system, providing users with an easy way to rent cars.</p>
-  <p><strong>Repository:</strong> <a href="Link to the GitHub repository">Car Rental System</a></p>
+    <section class="repositories">
+        <h2>Best Repositories</h2>
+        <ul>
+            <li><a href="https://github.com/yourusername/repo1" target="_blank">Repository 1</a></li>
+            <li><a href="https://github.com/yourusername/repo2" target="_blank">Repository 2</a></li>
+            <!-- Add more repository links as needed -->
+        </ul>
+    </section>
 
-  <h3>Project 2: Online Grocery/Shopping Management System</h3>
-  <p><strong>Description:</strong> ...</p>
-  <p><strong>Repository:</strong> <a href="Link to the GitHub repository">Online Grocery System</a></p>
-</div>
-
-<div class="section">
-  <h2>Skills</h2>
-  <ul>
-    <li>Programming Languages: C++, JavaScript</li>
-    <li>Web Technologies: HTML, CSS, React</li>
-    <li>Tools & Frameworks: Git, VS Code</li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>Contact</h2>
-  <p><strong>Email:</strong> <a href="mailto:mrabuzar459@gmail.com">mrabuzar459@gmail.com</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abuzar-khan-pakistan">LinkedIn Profile</a></p>
-  <p><strong>Portfolio:</strong> <a href="https://abuzarkhan-portfolio.netlify.app/">Portfolio Website</a></p>
-</div>
-
-<div class="section">
-  <h2>Achievements</h2>
-  <!-- Add your achievements here -->
-</div>
-
-<div class="section">
-  <p>Feel free to explore my repositories, contribute to my projects, or get in touch if you'd like to collaborate or discuss any opportunities. I'm always eager to connect with fellow developers and tech enthusiasts.</p>
-  <p>Thank you for visiting my GitHub profile!</p>
-</div>
+    <section class="websites">
+        <h2>My Websites</h2>
+        <ul>
+            <li><a href="https://yourwebsite1.com" target="_blank">Your Website 1</a></li>
+            <li><a href="https://yourwebsite2.com" target="_blank">Your Website 2</a></li>
+            <!-- Add more website links as needed -->
+        </ul>
+    </section>
 
 </body>
 </html>
